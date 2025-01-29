@@ -1,0 +1,17 @@
+.btn_black {
+    color: blackwhite;
+    font-weight: bold;
+    background-color: rgb(69, 45, 4);
+    padding: 10px;
+    box-shadow: none;
+}
+
+.btn {
+    padding: 10px 12px;
+    background-color: rgb(151, 170, 6); 
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 5px;
+}
