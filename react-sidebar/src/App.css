@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+}
+
+#side {
+    background-color: black;
+    width: 250px;
+    height: 100vh;
+    position: relative;
+    
+}
+
+#route {
+    display: flex;
+    position: absolute;
+}
+
+li {
+    list-style: none;
+    padding: 15px;
+    font-family: Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 30px;
+    color: white;
+}
+
+li:hover {
+    color: rgb(199, 231, 35);
+    font-weight: bold;
+    
+  }
+
+#about {
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+}
+#home {
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+}
+#contact {
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+}
