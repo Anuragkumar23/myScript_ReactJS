@@ -5,6 +5,7 @@ const initialstate = {
         username: 'Akash',
         balance: 25000
     },
+
 }
 
 export const updateWallet = (amt) => ({

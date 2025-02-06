@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { updateWallet } from '../Store';
 
 export default function Payment() {
-    const data =  useSelector(state => state.user)
+    const data =  useSelector((state) => state.user);
     const ref =  useDispatch();
     const handleClick = () => {
         ref(updateWallet(5000))
